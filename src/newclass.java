@@ -10,9 +10,38 @@
  */
 public class newclass {
     
+        private int classno;
+        private int amount;
         public newclass(){
-            System.out.println("New Class");
-            System.out.println("Created for testing");
+            
         }
+
+    /**
+     * @return the classno
+     */
+    public int getClassno() {
+        return classno;
+    }
+
+    /**
+     * @param classno the classno to set
+     */
+    public void setClassno(int classno) {
+        this.classno = classno;
+    }
+
+    /**
+     * @return the amount
+     */
+    public int getAmount() {
+        return amount;
+    }
+
+    /**
+     * @param amount the amount to set
+     */
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
    
 }
