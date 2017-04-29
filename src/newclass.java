@@ -11,7 +11,8 @@
 public class newclass {
     
         public newclass(){
-            
+            System.out.println("New Class");
+            System.out.println("Created for testing");
         }
    
 }
