@@ -46,4 +46,8 @@ public class manash {
     public void setName(String name) {
         this.name = name;
     }
+    void showname()
+    {
+        System.out.println("hoo");
+    }
 }
