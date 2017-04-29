@@ -43,5 +43,9 @@ public class newclass {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+    
+    void Addmail(){
+        System.out.println("mail");
+    }
    
 }
